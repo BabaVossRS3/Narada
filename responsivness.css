@@ -1,0 +1,445 @@
+@media screen and (max-width: 500px) {
+    body{
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow-x: hidden;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+    }
+    .menu-mobile{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -200;
+        opacity: 0;
+        background-color: #FEF9F2;
+        align-items: center;
+        justify-content: space-around;
+        transition: opacity 0.4s ease-in-out;
+        pointer-events: none;
+    }
+    .visible-mobile-menu{
+        pointer-events: auto;
+        opacity: 0.9;
+        z-index: 100;
+    }
+    .menu-mobile ul li{
+        list-style: none;
+        color: #597E52;
+        font-size: 50px;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        font-family: "Great Vibes", cursive;
+        font-weight: light;
+    }
+    .top-right-menu-nav{
+        display: none;
+    }
+    .top-right-ul-nav{
+        display: none;
+    }
+    .h1-title{
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .site-menu-ul{
+        display: none;
+    }
+    .restaurant-title{
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .top-right-bar-menu-mobile{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        font-size: 20px;
+        position: fixed;
+        justify-content: flex-end;
+        top: 5%;
+        right: 10%;
+        color: #597E52;
+    }
+    .welcome-div{
+        background-color: transparent !important;
+    }
+    .welcome-h1{
+        color: #FEF9F2;
+        font-size: 50px;
+        text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
+
+    }
+    #menu-button-main-page{
+        color: #FEF9F2;
+        text-decoration: underline;
+    }
+    .first-half-upper{
+        flex-direction: column-reverse;
+        overflow-x: hidden;
+        align-items: center !important;
+        padding: 0 !important;
+        justify-content: center !important;
+    }
+    .first-half-left{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .second-half-right{
+        padding: 10px 0;
+        margin:0;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .our-restaurant-h6{
+        width: 70%;
+        padding-bottom: 10px;
+    }
+    .text-upper-right-half{
+        width: 100% !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .local-h3{
+        width: 60%;
+        text-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .narada-news{
+        padding-bottom: 10px;
+    }
+    .treat-yourself{
+        padding-bottom: 10px;
+    }
+    .restaurant-visit-p{
+        width: 100%;
+    }
+    .read-more-button-left{
+        display: none;
+    }
+    .mobile-pic{
+        display: flex;
+    }
+    .first-half-upper img{
+        display: none;
+    }
+    .secondnd-main{
+        display: none;
+    }
+    /* .second-half-lower{
+        width: 100% !important;
+    } */
+     .first-half-bottom{
+        width: 100%;
+        border-style: none;
+        border-radius: 0;
+    }
+    .second-half-bottom h2{
+        font-size: 20px;
+        width: 70%;
+    }
+    .reservation-h2{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .reservation-span{
+        font-size: 40px;
+    }
+    #reservationForm{
+        flex-direction: column !important;
+        width: 70%;
+        align-items: center;
+    }
+    label{
+        color: white;
+        padding-bottom: 20px !important;
+    }
+    #reservationForm input ,select{
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    #partySize{
+        margin-bottom: 10px;
+    }
+    #time-reservation{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .center-footer{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .join-sublist{
+        font-size: 20px;
+        text-align: center;
+    }
+    .right-footer-main{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-form{
+        width: 100%;
+        align-items: center;
+    }
+    .email-subs, #button-subs{
+        padding: 10px;
+        margin:  10px;
+    }
+    .footer-form label{
+        padding: 10px;
+    }
+    .adress-footer{
+        line-height: 25px !important;
+        letter-spacing: 5px;
+    }
+    /* our vision page */
+    .our-vision-h1{
+        font-size: 30px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .our-vision-welcome{
+        width: 100%;
+        margin-top: -80px;
+    }
+    .our-vision-second-part-container{
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-vision-second-part-left, .our-vision-second-part-right{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        padding: 20px 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .chef-2{
+        display: none;
+    }
+    .img-vision-1{
+        width: 95%;
+        padding: 0;
+        margin: 0;
+    }
+    .our-vision-paragraph{
+        width: 100%;
+    }
+    .blog-our-vision-container{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+    .review-vision{
+        padding: 0;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    /* menu section */
+    .welcome-h1-menu{
+        color: #ffffff;
+        font-size: 40px;
+        text-shadow: 1px 1px 20px black;
+    }
+    .starters-title{
+        margin-top: 20px;
+    }
+    .savor-p{
+        text-align: center;
+        width: 70%;
+    }
+    .starters-grid-container, .mains-grid-container{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    /* reservation page  */
+    #reservationForm2{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    #reservationForm2 input, #reservationForm2 select{
+        border-radius: 5px;
+        outline: none;
+        border-style: solid 1px;
+        padding: 10px;
+        
+    }
+    .border-line-reservation{
+        margin-top: 25px;
+    }
+    /* confirm reservation */
+    .confirm-reservation-page{
+        margin-top: -550px;
+    }
+    .confirm-container{
+        width: 100%;
+    }
+    .right-confirm-container{
+        display: flex;
+        width: 40%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .first-last-input-div , .phone-email-input-div{
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-last-input-div label , .phone-email-input-div label{
+        padding: 0 !important ;
+        margin: 0 !important;
+    }
+    .input-confirm-page{
+        margin: 0;
+        font-size: 1.3vh;
+    }
+    #special-request-height{
+        margin: 0;
+        font-size: 1.2vh;
+    }
+    .label-confirm-page{
+        margin: 0;
+        padding-top: 10px;
+        font-size: 1.6vh;
+    }
+    .fill-details-p{
+        text-wrap: nowrap;
+    }
+    .out-of-time-text{
+        font-size: 1.6vh;
+        padding: 1.5vh;
+    }
+    .second-box-confirm-right-page{
+        font-size: 1.6vh;
+        padding: 1.5vh;
+    }
+    #change-dates{
+        width: 70%;
+    }
+    .thank-you-for-choosing{
+        font-size: 1.6vh;
+        padding-top: 10px;
+    }
+    .checkbox-text-button-div{
+        flex-direction: row;
+        margin: 0;
+    }
+    .checkbox-text-container-div{
+        padding-bottom: 0;
+        width: 100%;
+        margin-left: 80px;
+        padding-top: 20px;
+    }
+    .agree-terms-text{
+        color: black;
+        width: 150px;
+        font-size: 1.5vh;
+    }
+    .checkbox-input{
+        width: 20px !important;
+    }
+    /* contact page */
+    .contact-container{
+        flex-direction: column;
+        height: 83vh;
+    }
+    .location-title{
+        font-size: 3.5vh;
+    }
+    .left-contact-side-containder{
+        width: 100% !important;
+        align-items: center;
+    }
+    .address-text{
+        width: 100%;
+        font-size: 2vh;
+        padding-top: 10px;
+        text-align: center;
+
+    }
+    .opening-hours-p{
+        font-size: 2vh;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .hear-from-you-p{
+        font-size: 2.5vh;
+        font-weight: lighter;
+        padding-top: 10px;
+    }
+    .contact-form-container{
+        width: 100%;
+        height: 30%;
+    }
+    .inputs-contanainer-flex{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .left-input-side{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    .left-input-side label{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .left-input-side input{
+        padding: 10px;
+        width: 100%;
+    }
+    .right-contact-side-containder{
+        width: 100%;
+        height: 50vh;
+        font-size: 1vh;
+        align-items: center;
+    }
+    iframe{
+        width: 250px;
+        height: 250px;
+    }
+    .submit-contact-form-btn{
+        margin-top: 30px;
+    }
+
+    
+}
